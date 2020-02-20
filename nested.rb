@@ -64,7 +64,10 @@ end
 
 def adding_matz
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 1eb432421c7c46569563563ac6e1e8350ddcd4d7
 	programmer_hash =
  		{
         :grace_hopper => {
@@ -87,9 +90,12 @@ def adding_matz
       ["LISP", "C"]
     }
     
+<<<<<<< HEAD
    return programmer_hash
     
  
+=======
+>>>>>>> 1eb432421c7c46569563563ac6e1e8350ddcd4d7
 end
 
 
@@ -114,10 +120,18 @@ def changing_alan
      alans_new_info = "GUI"
      
   programmer_hash[:alan_kay][:known_for] = "GUI"
+<<<<<<< HEAD
   return programmer_hash
 
 end
 
+=======
+  programmer_hash
+
+end
+
+changing_alan
+>>>>>>> 1eb432421c7c46569563563ac6e1e8350ddcd4d7
 
 def adding_to_dennis
 	programmer_hash =
@@ -136,6 +150,14 @@ def adding_to_dennis
         }
      }
   programmer_hash[:dennis_ritchie][:languages] << "Assembly"
+<<<<<<< HEAD
    return programmer_hash
 
 end
+=======
+  programmer_hash
+
+end
+
+adding_to_dennis
+>>>>>>> 1eb432421c7c46569563563ac6e1e8350ddcd4d7
